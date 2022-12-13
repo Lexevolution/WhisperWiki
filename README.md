@@ -18,6 +18,9 @@ Script that I specifically made to use OpenAI's Whisper (more specifically, the 
 - Edit the settings file to your needs (More info below)
 - Run the script (again)!
 
+If done correctly, the file structure should look something like this:
+![image](https://user-images.githubusercontent.com/31176843/207340137-2c1c325e-1b30-4933-963a-8a96bbe84d28.png)
+
 ## Usage
 The `settings.json` file is where you will change all the necessary settings before running the script. All file paths in the settings file can be direct, or relative to the script's location.
 ### Setting descriptions
