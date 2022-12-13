@@ -32,4 +32,7 @@ The `settings.json` file is where you will change all the necessary settings bef
 ---
 Once all the settings are set, you just run the script, and a file picker will open. Choose your audio file, which will be fed in to Whisper for transcribing. The output files produce a .srt for timed close captions, a .txt for transcript, and a .wikitext for the Neos Wiki. You can then edit the values for the .wikitext template to add the previous page, the next page, the audio file, and the description.
 
-Here's a filled out template for reference:![image](https://user-images.githubusercontent.com/31176843/207352258-5be8fc1e-37f9-42d2-abf0-49f9de22717b.png)
+Here's some filled out templates for reference:
+![image](https://user-images.githubusercontent.com/31176843/207352258-5be8fc1e-37f9-42d2-abf0-49f9de22717b.png)
+![image](https://user-images.githubusercontent.com/31176843/207354120-4aebbfee-4a51-407c-bdd7-1220327ad454.png)
+
