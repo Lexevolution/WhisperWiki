@@ -30,4 +30,6 @@ The `settings.json` file is where you will change all the necessary settings bef
 - `filePickerPath` - An optional path which makes the file chooser automatically open from that location. If null, will open at the script's location. (`null` by default)
 - `cpuThreads` - The number of CPU threads to use for transcribing. [Diminishing returns above 7 threads](https://github.com/ggerganov/whisper.cpp/issues/200) (`4` by default)
 ---
-Once all the settings are set, you just run the script, and a file picker will open. Choose your audio file, which will be fed in to Whisper for transcribing. The output files produce a .srt for timed close captions, a .txt for transcript, and a .wikitext for the Neos Wiki.
+Once all the settings are set, you just run the script, and a file picker will open. Choose your audio file, which will be fed in to Whisper for transcribing. The output files produce a .srt for timed close captions, a .txt for transcript, and a .wikitext for the Neos Wiki. You can then edit the values for the .wikitext template to add the previous page, the next page, the audio file, and the description.
+
+Here's a filled out template for reference:![image](https://user-images.githubusercontent.com/31176843/207352258-5be8fc1e-37f9-42d2-abf0-49f9de22717b.png)
